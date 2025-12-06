@@ -1,5 +1,6 @@
 
 This is a fork of the chirpy jekyll theme.
+removed some thing I thought was unneccessary.
 
 to run: 
 '''
