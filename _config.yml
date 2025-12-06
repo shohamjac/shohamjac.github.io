@@ -190,7 +190,10 @@ exclude:
   - rollup.config.js
   - package*.json
   - _tabs/about.md
+
+include:
   - crumble
+
 
 jekyll-archives:
   enabled: [categories, tags]
