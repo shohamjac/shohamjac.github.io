@@ -39,6 +39,12 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+
+      - name: Build Assets
+        run: npm i && npm run build
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
