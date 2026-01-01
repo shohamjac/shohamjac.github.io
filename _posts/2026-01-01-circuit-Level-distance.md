@@ -35,18 +35,22 @@ Let's start by formulating the ILP problem.
 Let $x\in\{0,1\}^n$ be a vector that controls whether an error mechanism is included or not in the combination of error mechanisms. 
 Also, let $w\in\{0,1\}^k$ be the vector that controls whether a logical is flipped or not by this error mechanism combination.
 
-We want to minimize ${||x||}_1$ while ${||w||}_1\ge1$.
+We want to minimize $\|x\|_1$ while $\|w\|_1 \ge 1$.
 
 Under the first constraint:
+
 $$
-\sum_j D_{i,j} \cdot x_j = 0 \mod{2}
+\sum_j D_{i,j} \cdot x_j = 0 \mod{2} \;,
 $$
+
 with $D_{i,j}\in\{0,1\}$ being the effect of error mechanism $j$ on detector $i$ (i.e., $D_{i,j}=1$ iff error $j$ activates detector $i$).
 
 and under the second one:
+
 $$
-\sum_j L_{r,j} \cdot x_j = w_r \mod{2}
+\sum_j L_{r,j} \cdot x_j = w_r \mod{2} \;,
 $$
+
 with $L_{r,j}$ being the effect of error mechanism $j$ on logical $r$.
 
 We can easily use python-mip or another ILP library to formulate those constraints, and use this to find the circuit distance of every circuit (probably written in stim, as this is the leading library for Clifford simulations at the moment).
