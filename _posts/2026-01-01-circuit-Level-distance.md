@@ -1,4 +1,3 @@
-
 ---
 title: Finding the Circuit-Level Distance of a Code Using Integer Linear Programming
 author: jacoby
