@@ -1,7 +1,7 @@
 ---
 title: Finding the Circuit-Level Distance of a Code Using Integer Linear Programming
 author: jacoby
-date: 2025-10-04 11:33:00 +0200
+date: 2026-01-01 11:33:00 +0200
 categories: [Quantum Computing]
 tags: [Quantum Computing, Quantum Error Correction]
 pin: true
