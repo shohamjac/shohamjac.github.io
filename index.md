@@ -9,11 +9,11 @@ image:
 
 # Shoham J. Jacoby
 
-I am a quantum computing researcher focused on quantum error correcion and computer architecture. Currently in Alex Retzker's group at the Hebrew University of Jerusalem.
+I am a quantum computing researcher focused on quantum error correction and fault-tolerant quantum computing, currently working in Alex Retzker's group at the Hebrew University of Jerusalem.
 
 Before that, I did hardware design and system engineering, as well as project management and team lead roles (in the classical domain).
 
 Interested in research, tech, DIY, and travel.
 
 <!-- ![Me]({{ "/assets/img/me_for_about.png" | relative_url }}) -->
-<img src="/assets/img/me_for_about3.png" width="500"/>
+<img src="/assets/img/me_for_about3.png" width="500" alt="Shoham Jacoby"/>
